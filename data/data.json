@@ -3,7 +3,7 @@
         "name": "Amber Bisht",
         "gender": "Male",
         "title": "Full-Stack Engineer | Backend Systems | Cloud Infrastructure",
-        "description": "I'm someone who can single-handedly manage the server, code, product, and UI. Throw anything at me — I can deep-dive into it and fix every bit.\n\nI love working with AI — yup, I read every line of its thinking lol.\n\nCurrently working as a Full-Stack Engineering Intern at Tensorik. My primary stack is Next.js, Bun, TypeScript, PostgreSQL, Docker, and AWS — still exploring every new tech and field.\n\nI'm interested in backend-heavy SDE roles where I can work on difficult engineering problems rather than spending six hours figuring out how to center a div lol.",
+        "description": "I'm someone who can single-handedly manage the server, code, product, and UI. Throw anything at me — I can deep-dive into it and fix every bit.\n\nI love working with AI — yup, I read every line of its thinking lol.\n\nMy primary stack is Next.js, Bun, TypeScript, PostgreSQL, Docker, and AWS — still exploring every new tech and field.\n\nI'm interested in backend-heavy SDE roles where I can work on difficult engineering problems rather than spending six hours figuring out how to center a div lol.",
         "location": "Uttarakhand, IND",
         "image": "/amberbisht.webp",
         "fallbackRepos": 33,
@@ -75,27 +75,6 @@
             "live": "https://asksync.amberbisht.me"
         },
         {
-            "id": 2,
-            "title": "Secure Link Wrapper System",
-            "slug": "secure-link-wrapper",
-            "description": "A link protection system designed to prevent automated abuse and bot access. Uses multi-layer challenge verification, CAPTCHA protection, and Cloudflare-based defenses to secure sensitive links.",
-            "features": [
-                "Protected link redirection",
-                "Challenge-based verification system",
-                "Multiple CAPTCHA layers",
-                "Bot & automation prevention",
-                "Image & object-based challenges"
-            ],
-            "technologies": [
-                "Next.js",
-                "Google reCAPTCHA v3",
-                "Cloudflare Turnstile"
-            ],
-            "image": "/images/projects/links-asprin-dev.webp",
-            "github": "https://github.com/Amber-bisht/link-secure-advance",
-            "live": "https://links.asprin.dev"
-        },
-        {
             "id": 3,
             "title": "AES-128 LMS – Secure Scalable Learning Platform",
             "slug": "aes-128-lms",
@@ -125,31 +104,6 @@
             "live": "https://lms.amberbisht.me",
             "youtube": "https://www.youtube.com/watch?v=twGP0zGlrwE",
             "credit": "Made by [Amber Bisht](https://amberbisht.me). He is a DevOps & Full Stack Developer."
-        },
-        {
-            "id": 4,
-            "title": "Kundali Compatibility Engine",
-            "slug": "kundali-compatibility-engine",
-            "description": "A Vedic astrology marriage compatibility engine that generates astronomically accurate birth charts and AI-ready structured data for two individuals. Built with Swiss Ephemeris for precision and designed so AI (ChatGPT, etc.) can provide deep astrological analysis from the output.",
-            "features": [
-                "Lahiri Ayanamsa + Whole Sign house system using Swiss Ephemeris for sub-arcsecond astronomical precision",
-                "Ashtakoota Guna Milan (scored out of 36) with Manglik, Nadi, and Bhakoot dosha detection & cancellation logic",
-                "Divisional chart (Navamsa D9) computation, planetary aspects (Drishti), transit snapshots, and Vimshottari Dasha timeline",
-                "Dynamic AI Prompt Generator producing 6 customized prompts (Marriage, Career, Health, etc.) for ChatGPT based on raw chart data",
-                "Secure authentication via Google OAuth, geocoding place autocomplete, and MongoDB profile persistence",
-                "Supports pre-1960 historical timezone adjustments (Bombay, Calcutta, and WWII War Time offsets)"
-            ],
-            "technologies": [
-                "Python",
-                "FastAPI",
-                "MongoDB",
-                "Google OAuth",
-                "JavaScript"
-            ],
-            "image": "/images/projects/astro.amberbisht.webp",
-            "github": "https://github.com/Amber-bisht/astro",
-            "live": "https://astro.amberbisht.me/",
-            "tag": "Personal Project"
         },
         {
             "id": 5,
@@ -264,21 +218,6 @@
         }
     ],
     "experience": [
-        {
-            "id": 2,
-            "title": "Full Stack Engineer Intern",
-            "company": "Tensorik",
-            "logo": "https://tensorik.in/favicon.png",
-            "duration": "Ongoing",
-            "starttime": "August 2026",
-            "endtime": "Present",
-            "description": "Just started — detailed description will be added soon.",
-            "tech used": [
-                "Next.js",
-                "Postgres",
-                "GCP"
-            ]
-        },
         {
             "id": 1,
             "title": "Software Intern",
@@ -649,32 +588,6 @@
             "image": "/images/projects/jbdrench.webp",
             "github": "",
             "live": "https://www.jbdrench.com",
-            "tag": "Freelance Project"
-        },
-        {
-            "id": 5,
-            "title": "NotesFind – End-to-End Notes Management Platform",
-            "slug": "notesfind",
-            "description": "A complete end-to-end platform for notes management featuring role-based access control, a banning system, audit logging to track downloads, webinars, and Markdown-to-PDF conversion.",
-            "features": [
-                "Role-based access control (User, Owner, Publisher, Co-owner)",
-                "Banning system and administrative controls",
-                "Audit logs to track and monitor note downloads",
-                "Webinars integration for user engagement",
-                "Markdown-to-PDF (.md to PDF) dynamic conversion",
-                "Publishers can upload notes in .md format for normal online reading and downloading"
-            ],
-            "technologies": [
-                "Next.js",
-                "Cloudflare Turnstile",
-                "MongoDB",
-                "OAuth",
-                "Tailwind CSS",
-                "Markdown"
-            ],
-            "image": "/images/projects/notefind.webp",
-            "github": "",
-            "live": "https://notesfind.com/",
             "tag": "Freelance Project"
         },
         {

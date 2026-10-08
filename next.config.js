@@ -54,11 +54,6 @@ const nextConfig = {
         hostname: 'images.unsplash.com',
         pathname: '/**',
       },
-      {
-        protocol: 'https',
-        hostname: 'tensorik.in',
-        pathname: '/**',
-      },
     ],
   },
   // trailingSlash: true, // Removed as Vercel handles trailing slashes natively and causes 404.html chmod build error
