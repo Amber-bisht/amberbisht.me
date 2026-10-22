@@ -219,6 +219,27 @@
     ],
     "experience": [
         {
+            "id": 2,
+            "title": "Freelance SDE",
+            "company": "Self-Employed",
+            "logo": "/amberbisht.webp",
+            "duration": "Ongoing",
+            "starttime": "August 2025",
+            "endtime": "Present",
+            "description": "Architecting and developing full-stack web platforms, resilient backend microservices, and automated cloud pipelines for global clients. Specializing in high-performance web applications, distributed APIs, and database architecture. Open for new contracts and engineering consultations — schedule a free 30-minute consultation call to discuss your software development requirements.",
+            "link": "https://cal.com/amber-bisht-vbqicw/30min?overlayCalendar=true",
+            "ctaText": "Book Free Consultation",
+            "linkNote": "Free 30-min call regarding software development",
+            "tech used": [
+                "Next.js",
+                "TypeScript",
+                "NodeJS",
+                "PostgreSQL",
+                "Docker",
+                "AWS"
+            ]
+        },
+        {
             "id": 1,
             "title": "Software Intern",
             "company": "Delonix Services",
@@ -473,6 +494,7 @@
         "instagram": "https://www.instagram.com/amber_bisht/",
         "youtube": "https://www.youtube.com/@amber_bisht",
         "huggingface": "https://huggingface.co/amber-bisht",
+        "cal": "https://cal.com/amber-bisht-vbqicw/30min?overlayCalendar=true",
         "location": "India"
     },
     "certifications": [

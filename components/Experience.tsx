@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { getTechIcon } from '../utils/techIcons';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, Calendar, ExternalLink } from 'lucide-react';
 
 const ExperienceCard = ({ exp }: { exp: any }) => {
     const isOngoing = exp.duration === 'Ongoing' || exp.endtime === 'Present';
@@ -46,12 +46,32 @@ const ExperienceCard = ({ exp }: { exp: any }) => {
                     </div>
 
                     <div className={`transition-all duration-300 ease-in-out overflow-hidden ${
-                        isExpanded ? 'max-h-[500px] opacity-100 mb-6' : 'max-h-0 opacity-0 mb-0'
+                        isExpanded ? 'max-h-[600px] opacity-100 mb-6' : 'max-h-0 opacity-0 mb-0'
                     }`}>
                         {exp.description && (
                             <p className="text-gray-300 leading-relaxed max-w-4xl text-base">
                                 {exp.description}
                             </p>
+                        )}
+                        {exp.link && (
+                            <div className="mt-4 pt-4 border-t border-white/5 flex flex-wrap items-center gap-3">
+                                <a
+                                    href={exp.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    onClick={(e) => e.stopPropagation()}
+                                    className="inline-flex items-center gap-2 px-4 py-2.5 bg-makima-red hover:bg-red-600 text-white font-medium text-sm rounded-xl transition-all duration-200 shadow-md hover:shadow-red-900/30 active:scale-95 group/btn"
+                                >
+                                    <Calendar size={16} className="text-white shrink-0" />
+                                    <span>{exp.ctaText || "Book Free Consultation"}</span>
+                                    <ExternalLink size={14} className="text-white/80 group-hover/btn:translate-x-0.5 transition-transform" />
+                                </a>
+                                {exp.linkNote && (
+                                    <span className="text-xs text-zinc-400 font-medium">
+                                        {exp.linkNote}
+                                    </span>
+                                )}
+                            </div>
                         )}
                     </div>
                 </div>

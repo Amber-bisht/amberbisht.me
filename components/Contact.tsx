@@ -24,6 +24,7 @@ interface ContactProps {
             twitter: string;
             instagram?: string;
             youtube?: string;
+            cal?: string;
         };
     };
     githubStats: any;
@@ -41,9 +42,21 @@ const Contact = ({ data, githubStats }: ContactProps) => {
                         <div>
                             <h3 className="text-gray-400 font-medium mb-1">Current Status</h3>
                             <p className="text-2xl md:text-3xl font-bold text-white mb-2">Open for Freelance Work</p>
-                            <Link href="/freelance" className="inline-flex items-center gap-2 text-sm text-makima-red hover:text-white transition-colors font-semibold">
-                                View My Freelance Work <ExternalLink size={14} />
-                            </Link>
+                            <div className="flex flex-wrap items-center gap-4">
+                                <Link href="/freelance" className="inline-flex items-center gap-2 text-sm text-makima-red hover:text-white transition-colors font-semibold">
+                                    View My Freelance Work <ExternalLink size={14} />
+                                </Link>
+                                {data.contact.cal && (
+                                    <a
+                                        href={data.contact.cal}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-1.5 text-sm text-zinc-300 hover:text-white transition-colors"
+                                    >
+                                        Book Free Consultation <ExternalLink size={12} />
+                                    </a>
+                                )}
+                            </div>
                         </div>
 
                         <div className="grid grid-cols-2 gap-4 mt-8">
